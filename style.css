@@ -15,6 +15,7 @@ body{
 .block{
     width: 60%;
     display: inline-block;
+    padding: 10px 0;
 
 }
 .text{
@@ -23,18 +24,43 @@ body{
 .left{
     width: 20%;
     float: left;
+    font-weight: bold;
 }
 .right{
-    float: right;
-    width: 70%;
+    float: left;
+    width: 60%;
 }
 
 .right .part{
-    width: 46%;
+    width: 40%;
     float:left;
-    padding: 0 10% 0 10%;
+    padding: 0 5% 0 5%;
 } 
 
 .part *{
     width: 100%;
+}
+.part_area{
+    float: left;
+    width: 30%;
+    padding: 0 5% 0 5%;
+}
+.area{
+    float: left;
+    width: 30%;
+    padding: 0 5% 0 5%;
+}
+.phone{
+    float: left;
+    width: 10%;
+    padding: 0 5% 0 5%;
+}
+.right .input{
+    width: 40%;
+    float:left;
+    padding: 0 5% 0 5%;
+} 
+.check{
+    clear: left;
+    padding: 0 5% 0 5%;
 }

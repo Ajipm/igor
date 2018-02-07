@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="style.css">
-	<title>Form1</title>
+	<title>Form2</title>
 </head>
 <body>
 <div class="body">
@@ -15,6 +15,7 @@
               <p> Fill out the form to request a design </p>
         </div>
     </div>
+    <br>
     <div class="block">    
         <div class="left">
         	<label for="Name"> Name</label>
@@ -35,7 +36,7 @@
         	<label for="E-mail">E-mail</label>	
         </div>
 		<div class="right">
-            <div class="part">
+            <div class="input">
 		    	<input type="text" id="E-mail" name="E-mail" placeholder="ex: myname@example.com">
                 <label for="E-mail">E-mail</label>
             </div>
@@ -46,11 +47,13 @@
 		<label for="Phone"> Phone Number</label>
 	</div>
 	<div class="right">
-		<div class="part">
-			<input type="text" id="Area" name="Area">
-		    <label for="Area">Area</label>
-		</div>
-		-
+		<div class="part_area">
+			<div class="area"><input type="text" id="Area" name="Area">
+            <label for="Area">Area</label>
+            </div>
+        </div>
+        <div class="phone"> - </div>
+		
 		<div class="part">
 			<input type="text" id="Phone" name="Phone">
 			<label for="Phone">Phone Number</label>
@@ -62,7 +65,9 @@
 		<label for="Company">Company</label>
 	</div>
 	<div class="right">
-		<input type="text" id="Company" name="Company">
+        <div class="input">
+        <input type="text" id="Company" name="Company">
+    </div>
 	</div>
 	</div>
 	<div class="block"> 
@@ -70,13 +75,15 @@
 		<lable for="Typeof">Type of Business</lable>
 	</div>
 	<div class="right">
+        <div class="input">
 		<select id="Typeof">
 			<option value="">  </option>
 			<option value="Technology"> Technology </option>
 			<option value="Food"> Food </option>
 			<option value="Beauty"> Beauty </option>
 			<option value="Finance"> Finance </option>
-		</select>
+        </select>
+    </div>
 	</div>
 	</div>
 	<div class="block"> 
@@ -84,6 +91,7 @@
 		<label for="Typeweb">Type of Website You Need?</label>
 	</div>
 	<div class="right">
+        <div class="input">
 		<select id="Typeweb">
 			<option value="">  </option>
             <option value="Personal"> Personal </option>
@@ -93,27 +101,41 @@
             <option value="Local Business"> Local Business </option>
             <option value="Small Business"> Small Business </option>
             <option value="Medium Business"> Medium Business </option>
-		</select>
+        </select>
+    </div>
 	</div>
 	</div>
 	<div class="block"> 
 	<div class="left">
 		<label for="choose"> Choose Items for the Navigation Bar </label>
 	</div>
-	<div class="left">
+	<div class="right">
+        <div class="check">
 		<input type="checkbox" id="About" name="About">
-		<label for="About">About</label>
+        <label for="About">About</label>
+        </div>
+        <div class="check">
 		<input type="checkbox" id="FAQ" name="FAQ">
-		<label for="FAQ">FAQ</label>
+        <label for="FAQ">FAQ</label>
+    </div>
+    <div class="check">
 		<input type="checkbox" id="UserGuide" name="User Guide">
 		<label for="UserGuide">User Guide</label>
-		<input type="checkbox" id="Forum" name="Forum">
+    </div>
+    <div class="check">
+        <input type="checkbox" id="Forum" name="Forum">
 		<label for="Forum">Forum</label>
-		<input type="checkbox" id="Blog" name="Blog">
+    </div>
+    <div class="check">
+        <input type="checkbox" id="Blog" name="Blog">
 		<label for="Blog">Blog</label>
-		<input type="checkbox" id="Pricing" name="Pricing">
-		<label for="Pricing">Pricing</label>
-	</div>
+    </div>
+    <div class="check">
+        <input type="checkbox" id="Pricing" name="Pricing">
+        <label for="Pricing">Pricing</label>
+    </div>
+    </div>
+</div>
 	</div>
   </div>
 </div>
