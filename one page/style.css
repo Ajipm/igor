@@ -110,10 +110,6 @@ background: linear-gradient(to right, #f8f9f9 50%, #e9e9e9 50%);
     background-color: #e9e9e9;
     }
 
-.numbers{
-    background-color: #10c9c3;
-    width: 100%;
-}
 .skills {
     letter-spacing: .12rem;
     padding: 9% 0 11%;
@@ -145,4 +141,9 @@ background: linear-gradient(to right, #f8f9f9 50%, #e9e9e9 50%);
     width: 65%;
     height: 3px;
     background: #6fb4ff;
+}
+
+.numbers{
+    background-color: #10c9c3;
+    width: 100%;
 }
