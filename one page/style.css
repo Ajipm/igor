@@ -1,0 +1,148 @@
+*{
+    font-size: 12px;
+}
+
+/* .nopadding {
+    padding: 0 !important;
+ } */
+
+header{
+    padding-top: 38px;
+    font-weight: 600;
+    color: black;
+}
+
+.top_block{
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+ul{
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-padding-start: 0px;
+    line-height: 2.5rem;
+    letter-spacing: 0.075rem;
+}
+
+li {
+    width: auto;
+    display: inline-block;
+    margin: 0 0 0 4%;
+}
+
+nav a, nav a:hover, nav a:focus, nav a:visited {
+    text-decoration: none;
+    color: #191919;
+}
+
+#home a {
+	color: #10c9c3;
+}
+
+.nunito{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text{
+    font-size: 1.25rem;
+}
+.text-right{
+    text-align: right;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+ 
+.banner{
+    padding: 11.5% 0 15% 7%;
+    letter-spacing: .065rem
+}
+
+.row h1{
+    line-height: 1.4em;
+    font-weight: 800;
+    color: black
+}
+
+.banner-text p{
+    font-size: 1.75rem;
+    line-height: 2.8rem;
+    letter-spacing: .03rem
+}
+
+.banner-text{
+    padding: 1.25rem 2.5rem 0 0.5rem;
+}
+
+.banner-text a, .banner-text a:focus, .banner-text a:hover, .banner-text a:visited {
+    text-decoration-line: none;
+}
+
+.button{
+    display: inline;
+    line-height: 10.25rem;
+    padding: 20px 44.5px;
+    background-color: #10c9c3;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 600
+}
+
+.about{
+    padding: 6.5% 0 8.5% .75%;
+}
+.about p{
+    font-size: 1.5rem;
+    letter-spacing: .06rem;
+    line-height: 2.4rem;
+    padding: 1.5% 22% 2.5% 22%;
+}
+.skills{
+background: linear-gradient(to right, #f8f9f9 50%, #e9e9e9 50%);
+}
+
+.skills_2{
+    background-color: #e9e9e9;
+    }
+
+.numbers{
+    background-color: #10c9c3;
+    width: 100%;
+}
+.skills {
+    letter-spacing: .12rem;
+    padding: 9% 0 11%;
+}
+
+.skills_progress{
+    clear: left;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    padding: 4% 0 3% 0;
+}
+.progress_bg{
+    width: 90%;
+    background-color: rgba(128, 128, 128, .3);
+    height: 3px;
+    margin: 0 0 2.7% 0;
+}
+.progress_1{
+    width: 75%;
+    height: 3px;
+    background: #6fb4ff;
+}
+.progress_2{
+    width: 90%;
+    height: 3px;
+    background: #6fb4ff;
+}
+.progress_3{
+    width: 65%;
+    height: 3px;
+    background: #6fb4ff;
+}
